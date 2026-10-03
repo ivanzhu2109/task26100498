@@ -1,0 +1,10 @@
+{
+  "name": "helptunnel-negotiator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "test": "node --test test/*.test.ts"
+  }
+}
